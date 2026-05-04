@@ -2,8 +2,14 @@ const express = require("express");
 const cors = require("cors");
 const functions = require("firebase-functions");
 const stripeApiKey =
-  "sk_test_51Nqae9SBjZU8XkZzPmlN0iPFXMRSGcuwIl32RmZIulVBuIU3eCSo6t"+
-  "w8aFz0z0gxY3kte6mph6sjMY2onPL86O7w00YTdRXuLK";
+  process.env.STRIPE_API_KEY ||
+  (functions.config().stripe && functions.config().stripe.secret);
+
+if (!stripeApiKey) {
+  throw new Error(
+    "Stripe secret key not configured. Set STRIPE_API_KEY or firebase config stripe.secret"
+  );
+}
 
 const stripe = require("stripe")(stripeApiKey);
 

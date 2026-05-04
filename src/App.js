@@ -34,7 +34,7 @@ const App = props => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(checkUserSession);
+    dispatch(checkUserSession());
   }, [dispatch]);
 
   return (
@@ -51,7 +51,7 @@ const App = props => {
           }
         />
         <Route
-          exact path="/search"
+          path="/search"
           element={
             <MainLayout>
               <Search />

@@ -1,0 +1,19 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Kira\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.14.0
+3 silly config load:file:C:\Users\Kira\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:F:\Coding projects\Built in VS Code\Carserv Update\carserv\.npmrc
+5 silly config load:file:C:\Users\Kira\.npmrc
+6 silly config load:file:C:\Users\Kira\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm list eslint
+8 verbose argv "list" "eslint" "--depth" "0"
+9 verbose logfile logs-max:10 dir:F:\Coding projects\Built in VS Code\Carserv Update\carserv\npm-cache\_logs\2026-05-04T14_37_05_223Z-
+10 verbose logfile F:\Coding projects\Built in VS Code\Carserv Update\carserv\npm-cache\_logs\2026-05-04T14_37_05_223Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose cwd F:\Coding projects\Built in VS Code\Carserv Update\carserv
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v24.14.0
+16 verbose npm  v11.12.1
+17 verbose exit 0
+18 info ok
